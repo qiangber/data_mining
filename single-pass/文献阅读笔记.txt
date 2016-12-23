@@ -12,14 +12,15 @@ Single-Pass与LDA的结合
 提出基于LDA模型的热点话题检测方法；该方法首先从微博内容特征出发，利用N元递增模型抽取重复子串，依据绝对词频、相对词频及互信息、邻接信息熵等统计特征过滤垃圾子串从而进行新词识别提取微博新词，并利用此结果提升分词结果的准确性；利用LDA模型挖掘微博数据的主题信息，将主题作为话题从而得到候选话题列表，同时可确定话题、词语、文档之间的关系；最后利用GibbsLDA++工具的结果，将词语与其所属话题看做一个整体即单义词单元，通过计算单义词单元的权重即热度得到话题热度，对话题按热度排序以得到热点话题。
 
 
-《Torpedo: Topic Periodicity Discovery from Text Data》
+《Torpedo: Topic Periodicity Discovery from Text Data》2015
 研究文本主题周期出现的问题，对周期性主题进行挖掘
 
 
-《Generative Feature Language Models for Mining Implicit Features from Customer Reviews》
+《Generative Feature Language Models for Mining Implicit Features from Customer Reviews》2016
+对在线顾客回复进行总结和分析，论文提出了一个新的基于生成特征语言模型的方法，通过非监督统计学习更有效地挖掘隐藏特征；采用EM算法对参数进行自动优化；
 
 
-《Mobile App Retrieval for Social Media Users via Inference of Implicit Intent in Social Media Text》
+《Mobile App Retrieval for Social Media Users via Inference of Implicit Intent in Social Media Text》2016
 1.该论文引入并研究了一个新颖的基于包含用户隐式意图的状态文本的手机apps推荐；
 2.论文提出了一个新颖的方法来检索满足用户隐式意图的手机apps；首先使用从社交媒体构建的平行语料库来推断用户意图；然后度量手机apps与推断出的意图的相关性，以对其进行排列；
 3.论文创建了一个新的数据集来评价不同的模型。
